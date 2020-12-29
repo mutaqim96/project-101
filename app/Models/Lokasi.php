@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Lokasi extends Model
 {
     use HasFactory;
+
+    protected $table = "ARM_lokasi";//based on database
 }

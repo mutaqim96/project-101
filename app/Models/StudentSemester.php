@@ -9,4 +9,6 @@ class StudentSemester extends Model
 {
     use HasFactory;
     protected $table = "KRS_TahunSemPL";//based on database
+
+    //protected $primaryKey = "RKD01_NoMatrik";
 }

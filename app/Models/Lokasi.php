@@ -10,4 +10,6 @@ class Lokasi extends Model
     use HasFactory;
 
     protected $table = "ARM_lokasi";//based on database
+
+    //protected $primaryKey = "RKD01_NoMatrik";
 }

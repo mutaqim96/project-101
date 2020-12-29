@@ -10,4 +10,6 @@ class Session extends Model
     use HasFactory;
 
     protected $table = "SMP_Sesi";//based on database
+
+    protected $primaryKey = "KodSesi_Sem";
 }

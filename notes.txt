@@ -30,3 +30,7 @@ terus combine kan
 product dan tags
 product_tag
 *guna sync()
+
+* buat realtionship pastu test guna tinker.
+*bila semua model dah buat, ttiba ada conflict. pilih uniq model.
+* nama relationship kene uniq

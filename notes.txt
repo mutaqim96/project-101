@@ -1,0 +1,32 @@
+> edit .env
+- xtau tengok kat database.php. ada ruang sqlsrvr
+
+*nak check php artisan migrate
+Migration table not found
+
+*php artisan migrate:install
+
+*php artisan migrate:status
+
+------------
+Buat model
+* buat model yang akan connect ke location punya table
+* php artisan make:model Lokasi
+
+* dalam Lokasi punya model. untuk elak daripada nama auto jadi lokasis
+* 
+protected $table = 'ARM_Lokasi';
+
+* test
+* php artisan tinker
+>> App\Model\Lokasi::count()
+*nak display semua
+>> App\Model\Lokasi::all()
+
+* seeloknya kita design semua model ikut nama table.
+
+?brigde table.
+terus combine kan 
+product dan tags
+product_tag
+*guna sync()

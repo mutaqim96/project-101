@@ -11,5 +11,7 @@ class Lokasi extends Model
 
     protected $table = "ARM_lokasi";//based on database
 
-    //protected $primaryKey = "RKD01_NoMatrik";
+    protected $primaryKey = "Kod";
+
+
 }

@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/lokasi/create', [App\Http\Controllers\LokasiController::class, 'create'])->name('lokasi:create');
